@@ -1,0 +1,42 @@
+﻿### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### JRebel config ###
+rebel.xml
+
+.externalToolBuilders/
+.myeclipse/
+.settings/
+.classpath
+*.war
+*.class
+bin/
+classes/
+target/
+.mymetadata
+.project
+.tern-project
+
+#CHECKSTYLE
+.checkstyle
+
+
+# Artery
+local.properties
+.artery
+artery.xml
+MANIFEST.MF
+# Locally stored "Eclipse launch configurations"
+*.launch
+/tools/根据pom生成project文件中的linksResources/*.bat
+/80_数字法院/np-fy-laxt/java/test/testSpring/TestTt.java
+#MAVEN
+/60_Maven/maven3/conf/setting.xml
+/40_独立服务/20_服务/np-fy-zgzxjk/java/web/WEB-INF/lib
+/40_源码/20_电子卷宗/BatchDzjz/.fatjar
+
+# Other
+!40_源码/50_自动化/**/*
